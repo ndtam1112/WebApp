@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-}
-
-body {
-  max-height: 100vh;
-}
-
 .navigation {
   position: fixed;
   top: 16px;
@@ -21,7 +10,6 @@ body {
   flex-direction: row;
   border-radius: 20px;
 }
-
 .navigation .nav-icon {
   width: 70px;
   height: 100%;
@@ -135,6 +123,17 @@ body {
 .navigation .nav-talking img {
   width: 100%;
   filter: invert(1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body {
+  max-height: 100vh;
 }
 
 .tabbar {
