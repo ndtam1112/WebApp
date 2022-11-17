@@ -61,7 +61,7 @@ body {
   flex-direction: column;
 }
 .navigation .nav-content .nav-title {
-  height: 40px;
+  height: 44px;
   display: flex;
   align-items: center;
   padding-left: 16px;
@@ -135,4 +135,135 @@ body {
 .navigation .nav-talking img {
   width: 100%;
   filter: invert(1);
+}
+
+.tabbar {
+  position: fixed;
+  top: 16px;
+  bottom: 16px;
+  right: 16px;
+  width: 244px;
+  background-color: #2c2f48;
+  border-radius: 20px;
+}
+.tabbar .tab-icon {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  filter: invert(1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+.tabbar .tab-info {
+  width: 100%;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabbar .tab-info .name-info {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+.tabbar .tab-info .name-info p {
+  font-weight: bold;
+}
+.tabbar .tab-info .name-info span {
+  font-size: smaller;
+  opacity: 0.5;
+}
+.tabbar .new-members, .tabbar .followme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabbar .new-members .info-member, .tabbar .followme .info-member, .tabbar .followme .title-follow {
+  width: 100%;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.tabbar .new-members .info-member span, .tabbar .followme .info-member span, .tabbar .followme .title-follow span {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
+}
+.tabbar .new-members .info-member a, .tabbar .followme .info-member a, .tabbar .followme .title-follow a {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.2);
+}
+.tabbar .new-members .container-member .card-member, .tabbar .followme .container-member .card-member, .tabbar .followme .container-member .card-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 212px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: overlay;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 8px;
+}
+.tabbar .new-members .container-member .card-member svg, .tabbar .followme .container-member .card-member svg, .tabbar .followme .container-member .card-social svg {
+  width: 44px;
+  height: 44px;
+}
+.tabbar .new-members .container-member .card-member .ava-card, .tabbar .followme .container-member .card-member .ava-card, .tabbar .followme .container-member .card-social .ava-card, .tabbar .followme .container-member .card-social .ava-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabbar .new-members .container-member .card-member .text-card, .tabbar .followme .container-member .card-member .text-card, .tabbar .followme .container-member .card-social .text-card {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tabbar .new-members .container-member .card-member .text-card p, .tabbar .followme .container-member .card-member .text-card p, .tabbar .followme .container-member .card-social .text-card p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  color: #fff;
+}
+.tabbar .new-members .container-member .card-member .text-card span, .tabbar .followme .container-member .card-member .text-card span, .tabbar .followme .container-member .card-social .text-card span {
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.25);
+}
+.tabbar .followme .title-follow {
+  margin-top: 16px;
+}
+.tabbar .followme .container-member .card-social:nth-child(1) {
+  transform: translateX(30px);
+}
+.tabbar .followme .container-member .card-social:nth-child(2) {
+  transform: translateX(50px);
+}
+.tabbar .followme .container-member .card-social .ava-social {
+  width: 44px;
+  padding: 8px;
+}
+.tabbar .followme .container-member .card-social .ava-social img {
+  width: 100%;
+}
+.tabbar .followme .container-member .card-social p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  color: #fff;
+  margin-left: 4px;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
