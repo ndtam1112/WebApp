@@ -26,8 +26,12 @@
     align-items: center;
 
     .name-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
       color: #fff;
-      @include FlexCenter();
       margin-top: 24px;
       p {
         font-weight: bold;
@@ -41,7 +45,10 @@
   }
 
   .new-members {
-    @include FlexCenter();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .info-member {
       width: 100%;
@@ -82,7 +89,10 @@
         }
 
         .ava-card {
-          @include FlexCenter();
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
 
         .text-card {
